@@ -1,0 +1,39 @@
+.priceContainer{
+    height: 70vh;
+    // background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    &-detail{
+        width: 60vw;
+        // min-width: 500px;
+        height: 60vh;
+        // min-height: 300px;
+        // background-color: wheat;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1em;
+        overflow: hidden;
+        box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+        & h1{
+            background-color: #CCFF99;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__itembox{
+            // background-color: yellowgreen;
+            margin: auto;
+            overflow: scroll;
+            &--item{
+                margin:20px;
+                min-height: 5vh;
+                min-width: 30vw;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
